@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="images/logo.png" alt="" />
+            <h2>EGA <span class="danger">TOR</span></h2>
+          </div>
+          <div class="close" id="close-btn">
+            <i class="ri-close-large-fill"></i>
+          </div>
+        </div>
+        <div class="sidebar">
+          <a href="#">
+            <span><i class="ri-layout-grid-line"></i></span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="#" class="active">
+            <span><i class="ri-user-line"></i></span>
+            <h3>Customers</h3>
+          </a>
+          <a href="#">
+            <span><i class="ri-file-list-3-line"></i></span>
+            <h3>Orders</h3>
+          </a>
+          <a href="#">
+            <span><i class="ri-pulse-ai-fill"></i></span>
+            <h3>Analytics</h3>
+          </a>
+          <a href="#">
+            <span><i class="ri-mail-line"></i></span>
+            <h3>Messages</h3>
+            <span class="message-count">26</span>
+          </a>
+          <a href="#">
+            <span><i class="ri-file-check-line"></i></span>
+            <h3>Products</h3>
+          </a>
+          <a href="#">
+            <span><i class="ri-error-warning-line"></i></span>
+            <h3>Reports</h3>
+          </a>
+          <a href="#">
+            <span><i class="ri-settings-3-fill"></i></span>
+            <h3>Settings</h3>
+          </a>
+          <a href="#">
+            <span><i class="ri-add-line"></i></span>
+            <h3>Add Product</h3>
+          </a>
+          <a href="#">
+            <span><i class="ri-logout-box-r-line"></i></span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+      <main>
+        <h1>Dashboard</h1>
+        <div class="date">
+          <input type="date" />
+        </div>
+        <div class="insights">
+          <div class="sales">
+            <span><i class="ri-folder-chart-fill"></i></span>
+            <div class="midlle">
+              <div class="left">
+                <h3>Total Sales</h3>
+                <h1>$25,024</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>81%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!-- End Of Sales -->
+          <div class="expenses">
+            <span><i class="ri-bar-chart-line"></i></span>
+            <div class="midlle">
+              <div class="left">
+                <h3>Total Expenses</h3>
+                <h1>$14,160</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>62%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!-- End Of Expenses -->
+          <div class="income">
+            <span><i class="ri-line-chart-line"></i></span>
+            <div class="midlle">
+              <div class="left">
+                <h3>Total Income</h3>
+                <h1>$10,864</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>44%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!-- End Of Income -->
+        </div>
+        <!-- End Of Insights -->
+        <div class="recent-orders">
+          <h2>Recent Orders</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Product Number</th>
+                <th>Payment</th>
+                <th>Status</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Foldable Mini Drone</td>
+                <td>85631</td>
+                <td>Due</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>Foldable Mini Drone</td>
+                <td>85631</td>
+                <td>Due</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>Foldable Mini Drone</td>
+                <td>85631</td>
+                <td>Due</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>Foldable Mini Drone</td>
+                <td>85631</td>
+                <td>Due</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Details</td>
+              </tr>
+              <tr>
+                <td>Foldable Mini Drone</td>
+                <td>85631</td>
+                <td>Due</td>
+                <td class="warning">Pending</td>
+                <td class="primary">Details</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="#">Show All</a>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

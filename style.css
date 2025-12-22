@@ -263,7 +263,7 @@ main .insights > div:hover {
 
 main .insights > div span {
   background: var(--color-primary);
-  padding: 0.5rem;
+  padding: 0.5rem 0.8rem;
   border-radius: 50%;
   color: var(--color-white);
   font-size: 2rem;
